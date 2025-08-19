@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amacon-Clone</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="style.css">
+    <title>Amazon-Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,39 +20,41 @@
                 <p class="add-first">Deliver to</p>
                 <div class="add-icon">
                     <i class="fa-solid fa-location-dot"></i>
-                    <p class="add-sec" >India</p>
+                    <p class="add-sec">India</p>
                 </div>
             </div>
 
             <div class="nav-search">
-                <select class="search-select">
-                    <option >All</option>
-                    <option >Games</option>
-                    <option >Software</option>
-                    <option >Movies & TV</option>
-                    <option >Arts & Crafts</option>
-                    <option >Online Games</option>
-                    <option >Toys & Games</option>
-                    <option >Girl's Fashion</option>
-                    <option >Boy's Fashion</option>
-                    <option >Prime Video</option>
+                <select name="category" id="category" class="search-select">
+                  <option value="all">All</option>
+                  <option value="games">Games</option>
+                  <option value="software">Software</option>
+                  <option value="electronics">Electronics</option>
+                  <option value="show">Movies & TV</option>
+                  <option value="clouths">Clouths</option>
+                  <option value="toys">Toys & Games</option>
+                  <option value="girls-fashion">Girl's Fashion</option>
+                  <option value="boys-fashion">Boy's Fashion</option>
                 </select>
                 <input placeholder="Search Amazon" class="search-input">
                 <div class="search-icon">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
+
             <div class="nav-singin border">
              <p><span>Hello, sign in</span></p>
              <p class="nav-sec">Account & Lists</p>
             </div>
+
             <div class="nav-return border">
-             <p><span>Retuens</span></p>
+             <p><span>Returns</span></p>
              <p class="nav-sec">& Orders</p>
             </div>
+
             <div class="nav-cart border">
                 <i class="fa-solid fa-cart-shopping"></i>
-                Crat
+                Cart
             </div>
         </div>
 
@@ -81,6 +83,68 @@
         <div class="hero-section">
             <div class="hero-msg">
                 <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#"> Click here to go to amazon.in</a> </p>
+            </div>
+        </div>
+
+        <!-- shop section -->
+        <div class="shop-section">
+            <div class="bix1 box">
+                <div class="box-content">
+                    <h2>Games</h2>
+                    <div class="box-img" style="background-image: url('assets/box-1image.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="bix2 box">
+                <div class="box-content">
+                    <h2>Software</h2>
+                    <div class="box-img" style="background-image: url('assets/box-2.image.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="bix3 box">
+                <div class="box-content">
+                    <h2>Electronics</h2>
+                    <div class="box-img" style="background-image: url('assets/box3-img.jpeg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="bix4 box">
+                <div class="box-content">
+                    <h2>Movies & TV</h2>
+                    <div class="box-img" style="background-image: url('assets/box4-image.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+        </div>
+            <div class="shop-section">
+             <div class="bix1 box">
+                <div class="box-content">
+                    <h2>Clouths</h2>
+                    <div class="box-img" style="background-image: url('assets/box5-img.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="bix2 box">
+                <div class="box-content">
+                    <h2>Toys & Games</h2>
+                    <div class="box-img" style="background-image: url('assets/box6-img.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="bix3 box">
+                <div class="box-content">
+                    <h2>Girl's Fashion</h2>
+                    <div class="box-img" style="background-image: url('assets/box7-img.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="bix4 box">
+                <div class="box-content">
+                    <h2>Boy's Fashion</h2>
+                    <div class="box-img" style="background-image: url('assets/box8-img.jpg');"></div>
+                    <p>See more</p>
+                </div>
             </div>
         </div>
 </body>
